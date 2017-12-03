@@ -1,0 +1,57 @@
+" 2017-5-28
+" attempt fo determine the file type based on its ame and possibly its contetns. use this to intelligent auto-indet depending on the file type
+filetype indent plugin on
+
+"enable syntax highlighting
+syntax on
+
+"allows you to re-use the smae window and switch from an unsaved buffer without saving it first.
+set hidden
+
+"not everyone likes working this way
+"alternatives include using tabs ot split windows instead of re-using the same
+"window
+"set confirm
+"set autowriteall
+
+"better cmd-line completion
+set wildmenu
+
+"show partial commands in the last line of the screen
+set showcmd
+
+"hightlight seaches (use <C-L> to temporarily turn off highlighting
+set hlsearch
+
+"better useability
+set ignorecase
+set smartcase
+
+"allow backspacing over autoindent, line breaks ad start of insert action
+set backspace=indent,eol,start
+
+"when opening a new line, keep the same indent as the line currently on
+set autoindent
+
+"prevent movements from going to the first char of a line
+set nostartofline
+
+"display the current position on the last line of the screen or in the status
+"line of a window
+set ruler
+
+"always display the status line
+set laststatus=2
+
+"set command window hight to 2 lines
+set cmdheight=2
+
+"display the line numbers on the left
+set number
+
+"indentation options
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+
